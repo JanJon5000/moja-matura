@@ -1,0 +1,3 @@
+Zadanie C
+	miasto o najwiekszej liczbie rodzajow lokali - Berlin, liczba lokali - 35
+	miasto o najmniejszej liczbie rodzajow lokali - Kolonia, liczba lokali - 18
