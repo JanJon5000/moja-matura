@@ -1,0 +1,6 @@
+Zadanie B
+b)
+	Miasto z centrum handlowym o najwiekszej powierzchni
+	Essen-4760
+	Miasto z centrum handlowym o najmniejszej powierzchni
+	Wilno-1620
