@@ -6,13 +6,12 @@ with open('zadanie02.txt', 'r') as file:
         for index in range(0, 2):
             line[index] = line[index].split('(')
             line[index][1] = line[index][1].replace(')', '')
-            for character in line[index][0]:
-                try:
-                    if int(character, int(line[index][1])) > int(line[index][1]):
-                        howManyMeetTheCondition += 1
-                        break
-                except:
-                    if beyondDecimal[character] > int(line[index][1]):
-                        howManyMeetTheCondition += 1
-                        break        
+            maxCharacter = max(line[index][0])
+            try:
+                maxCharacter = beyondDecimal[maxCharacter]
+            except:
+                pass
+            if int(maxCharacter) >= int(line[index][1]):
+                howManyMeetTheCondition += 1
+                break
 print(howManyMeetTheCondition)
