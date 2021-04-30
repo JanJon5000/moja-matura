@@ -11,8 +11,8 @@ with open('zadanie02.txt', 'r') as file:
                     if int(character, int(line[index][1])) > int(line[index][1]):
                         howManyMeetTheCondition += 1
                         break
-                except ValueError:
+                except:
                     if beyondDecimal[character] > int(line[index][1]):
                         howManyMeetTheCondition += 1
-                        break           
+                        break        
 print(howManyMeetTheCondition)
