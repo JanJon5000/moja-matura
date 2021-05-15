@@ -1,0 +1,16 @@
+zadanie 5:
+2 - ilosc liczb - 0 suma - 0
+3 - ilosc liczb - 0 suma - 0
+4 - ilosc liczb - 1 suma - 702
+5 - ilosc liczb - 2 suma - 3682
+6 - ilosc liczb - 0 suma - 0
+7 - ilosc liczb - 1 suma - 16749
+8 - ilosc liczb - 3 suma - 68629
+9 - ilosc liczb - 2 suma - 96971
+10 - ilosc liczb - 2 suma - 120059
+11 - ilosc liczb - 7 suma - 693826
+12 - ilosc liczb - 5 suma - 960240
+13 - ilosc liczb - 11 suma - 2125559
+14 - ilosc liczb - 17 suma - 5336527
+15 - ilosc liczb - 20 suma - 8209726
+16 - ilosc liczb - 29 suma - 18777463
