@@ -21,4 +21,6 @@ with open('instrukcje.txt', 'r') as file:
                     if letter == line[1]:
                         ourSTR[ourSTR.index(letter)] = lettersToSqap[line[1]]
                         break
-print(''.join(ourSTR))
+with open('wyniki4.txt', 'a') as file:              
+    print(''.join(ourSTR))
+    file.write('\nZadanie 4.4\n\t' + ''.join(ourSTR))
