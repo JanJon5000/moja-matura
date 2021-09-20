@@ -6,7 +6,7 @@ def isPalindrome(text):
         index+=1
     return True
 
-with open('C:\\VSCODE\\my-matriculation-tasks-\\2010\\base_matura\\dane.txt', 'r') as file:
+with open('dane.txt', 'r') as file:
     for _ in range(1000):
         line = file.readline().replace('\n', '')
         if isPalindrome(line):
