@@ -11,7 +11,7 @@ with open('noworodki.txt', 'r') as file:
 
     print('najwyzszy chlopiec', maxBoy[1], maxBoy[0])
     print('najwyzsza dziewczynka', maxGirl[1], maxGirl[0])
-    with open('zadanie6.txt', 'a') as fileSave:
+    with open('zadanie6.txt', 'w') as fileSave:
         fileSave.write('a)\n')
         fileSave.write('najwyzszy chlopiec ' + str(maxBoy[1]) + ' ' + str(maxBoy[0]) + '\n')
         fileSave.write('najwyzszy chlopiec ' + str(maxGirl[1]) + ' ' + str(maxGirl[0]) + '\n')
